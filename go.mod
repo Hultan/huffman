@@ -1,3 +1,3 @@
-module compress
+module huffman
 
 go 1.17

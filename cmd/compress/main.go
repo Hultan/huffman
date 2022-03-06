@@ -1,12 +1,12 @@
 package main
 
 import (
-	"compress/internal/compress"
+	"huffman/internal/compress"
 )
 
 func main() {
-	in := "/home/per/code/compress/assets/text.txt"
-	out := "/home/per/code/compress/assets/text.scf"
+	in := "/home/per/code/huffman/assets/text.txt"
+	out := "/home/per/code/huffman/assets/text.scf"
 
 	compress.Compress(in, out)
 }
